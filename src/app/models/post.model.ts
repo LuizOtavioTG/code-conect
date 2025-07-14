@@ -19,5 +19,5 @@ export interface Postagem {
 }
 
 export interface DadosPostagem {
-  postagens: Postagem[];
+  posts: Postagem[];
 }

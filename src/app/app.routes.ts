@@ -12,11 +12,11 @@ export const routes: Routes = [
         component: LayoutComponent,
         canActivate: [AuthGuard],
         children: [
-            {
-                path: "posts", component: ListaPostagemComponent
+            { path: "posts", 
+                loadComponent: () => import('./paginas/lista-postagem/lista-postagem.component').then(c => c.ListaPostagemComponent) 
             },
-            {
-                path: "posts/:id", component: DetalhesPostagemComponent
+            { path: "posts/:id", 
+                loadComponent: () => import('./paginas/detalhes-postagem/detalhes-postagem.component').then(c => c.DetalhesPostagemComponent) 
             }
         ]
     }
