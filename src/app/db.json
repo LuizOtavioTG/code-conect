@@ -18,7 +18,7 @@
       "imagem": "assets/images/post2.png",
       "usuario": {
         "nome": "@maria",
-        "avatar": "assets/images/avatar2.png"
+        "avatar": "assets/images/avatar.png"
       },
       "estatisticas": {
         "codigo": 18,
@@ -33,7 +33,7 @@
       "imagem": "assets/images/post3.png",
       "usuario": {
         "nome": "@carlos",
-        "avatar": "assets/images/avatar3.png"
+        "avatar": "assets/images/avatar.png"
       },
       "estatisticas": {
         "codigo": 22,
@@ -45,10 +45,10 @@
       "id": "4",
       "titulo": "Aplicativo Mobile de E-commerce",
       "descricao": "Um design responsivo para um aplicativo de compras online.",
-      "imagem": "assets/images/post4.png",
+      "imagem": "assets/images/post3.png",
       "usuario": {
         "nome": "@ana",
-        "avatar": "assets/images/avatar4.png"
+        "avatar": "assets/images/avatar.png"
       },
       "estatisticas": {
         "codigo": 30,
